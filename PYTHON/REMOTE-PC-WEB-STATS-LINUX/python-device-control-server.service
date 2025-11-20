@@ -1,0 +1,9 @@
+[Unit]
+Description=The api wb server
+
+[Service]
+User=root 
+ExecStart=/usr/bin/python3 /path-to-linux/REMOTE-PC-WEB-STATS-LINUX/main.py
+
+[Install]
+WantedBy=multi-user.target

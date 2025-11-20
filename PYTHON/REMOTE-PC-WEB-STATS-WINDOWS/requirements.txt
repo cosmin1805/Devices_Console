@@ -1,0 +1,5 @@
+flask
+psutil
+wmi
+gevent
+flask-cors

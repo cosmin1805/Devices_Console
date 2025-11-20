@@ -1,0 +1,9 @@
+[Unit]
+Description=The wb server to communicate with the console
+
+[Service]
+User=root
+ExecStart=/usr/bin/python3 /home/cosmin/REMOTE-PC-WEB-STATS-LINUX/main.py
+
+[Install]
+WantedBy=multi-user.target

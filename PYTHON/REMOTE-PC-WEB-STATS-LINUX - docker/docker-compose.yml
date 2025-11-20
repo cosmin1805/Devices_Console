@@ -1,0 +1,16 @@
+version: '3.4'
+
+services:
+  remotepcwebstatslinux:
+    image: remotepcwebstatslinux
+    container_name: remote_pc_stats
+    volumes:
+    - /var/run/dbus:/var/run/dbus
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - 2000:2000
+    restart: unless-stopped
+    security_opt:
+      - apparmor:unconfined

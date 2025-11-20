@@ -1,0 +1,6 @@
+flask
+psutil
+gevent
+gunicorn
+dbus-python
+flask-cors

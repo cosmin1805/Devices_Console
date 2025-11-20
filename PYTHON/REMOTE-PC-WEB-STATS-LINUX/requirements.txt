@@ -1,0 +1,6 @@
+flask
+psutil
+gevent
+flask-cors
+gunicorn
+dotenv

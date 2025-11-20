@@ -1,0 +1,8 @@
+[Unit]
+Description=Timer for the python-stats-server service
+
+[Timer]
+OnBootSec=30sec
+
+[Install]
+WantedBy=timers.target
