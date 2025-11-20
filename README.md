@@ -57,6 +57,9 @@ A quick look at the mounted console:
 
   ![Mounted console reference](images/image2.png)
 
+## Related projects
+- [cosmin1805/WOL-WEB-INTERFACE](https://github.com/cosmin1805/WOL-WEB-INTERFACE) – a broader web interface for the same types of monitoring and control tasks (wake, shutdown, reboot, stats) from a browser.
+
 ## Notes
 - Built in 2023 before starting college; kept here as a snapshot of the original build.
 - The Python services assume access to `psutil` sensor data; adjust the `/stats` implementation if your platform exposes temperatures differently.
